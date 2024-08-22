@@ -8,7 +8,8 @@
   },
   "scripts": {
     "serve": "nodemon www/app.js",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "pm2 start ecosystem.config.js --env production"
   },
   "keywords": [],
   "author": "",
